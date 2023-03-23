@@ -31,7 +31,7 @@ public class User implements UserDetails {
     @Id
     @GeneratedValue
     @NotNull(message = VALIDATE_THE_FIELD)
-    private Integer id;
+    private Long id;
 
     @Column(name = FIRST_NAME)
     @Size(max = Constrants.MAX_60, message = VALIDATE_MAX_SIZE_60)
