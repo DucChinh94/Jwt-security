@@ -15,4 +15,15 @@ public class Constrants {
     // maxlength
     public static final int MAX_60 = 60;
 
+    // status code response
+    public static final int HTTP_CODE_200 = 200;
+    public static final int HTTP_CODE_400 = 400;
+    public static final int HTTP_CODE_401 = 401;
+    public static final int HTTP_CODE_403 = 403;
+    public static final int HTTP_CODE_404 = 404;
+    public static final int HTTP_CODE_500 = 500;
+
+    // status response
+    public static final String SUCCESS = "Success get information record";
+
 }
